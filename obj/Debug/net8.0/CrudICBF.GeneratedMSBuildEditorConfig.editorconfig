@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CrudICBF
 build_property.RootNamespace = CrudICBF
@@ -18,12 +26,132 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\julia\source\repos\CrudICBF\CrudICBF
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Acudientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN1ZGllbnRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Acudientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN1ZGllbnRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Acudientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN1ZGllbnRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Acudientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN1ZGllbnRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Acudientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN1ZGllbnRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Jardins/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFyZGluc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Jardins/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFyZGluc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Jardins/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFyZGluc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Jardins/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFyZGluc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Jardins/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFyZGluc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Madrecoms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFkcmVjb21zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Madrecoms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFkcmVjb21zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Madrecoms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFkcmVjb21zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Madrecoms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFkcmVjb21zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Madrecoms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFkcmVjb21zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Ninios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmluaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Ninios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmluaW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Ninios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmluaW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Ninios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmluaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Ninios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmluaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroasistenciums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hc2lzdGVuY2l1bXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroasistenciums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hc2lzdGVuY2l1bXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroasistenciums/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hc2lzdGVuY2l1bXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroasistenciums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hc2lzdGVuY2l1bXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroasistenciums/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hc2lzdGVuY2l1bXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroavanceacademicoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hdmFuY2VhY2FkZW1pY29lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroavanceacademicoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hdmFuY2VhY2FkZW1pY29lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroavanceacademicoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hdmFuY2VhY2FkZW1pY29lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroavanceacademicoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hdmFuY2VhY2FkZW1pY29lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Registroavanceacademicoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9hdmFuY2VhY2FkZW1pY29lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/julia/source/repos/CrudICBF/CrudICBF/Views/Shared/Error.cshtml]
