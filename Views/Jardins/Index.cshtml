@@ -4,11 +4,12 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Jardines</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<form asp-action="Create">
+    <button class="btn btn-primary" type="submit">Nuevo Registro</button>
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -21,7 +22,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Estado)
             </th>
-            <th></th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -36,11 +37,20 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Estado)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdentificadorJardin">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdentificadorJardin">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdentificadorJardin">Delete</a>
-            </td>
+                <td>
+                    <form asp-action="Details" asp-route-id="@item.IdentificadorJardin" style="display: inline;">
+                        <button class="btn btn-warning" type="submit">Detalles</button>
+                    </form>
+
+                    <form asp-action="Edit" asp-route-id="@item.IdentificadorJardin" style="display: inline;">
+                        <button class="btn btn-primary" type="submit">Editar</button>
+                    </form>
+             
+                    <form asp-action="Delete" asp-route-id="@item.IdentificadorJardin" style="display: inline;">
+                        <button class="btn btn-danger" type="submit">Eliminar</button>
+                    </form>
+                </td>
+
         </tr>
 }
     </tbody>

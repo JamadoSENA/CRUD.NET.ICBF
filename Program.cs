@@ -1,7 +1,15 @@
+using CrudICBF.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add DbContext with connection string from configuration
+builder.Services.AddDbContext<IcbfContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+                     new MySqlServerVersion(new Version(10, 4, 32))));
 
 var app = builder.Build();
 
