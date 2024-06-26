@@ -1,0 +1,68 @@
+-- Crear la base de datos (Hecha en MySQL Workbench)
+CREATE DATABASE ICBF;
+USE ICBF;
+
+-- Tabla de Registro de Acudientes
+CREATE TABLE Acudiente (
+    Cedula INT PRIMARY KEY NOT NULL,
+    Nombre VARCHAR(100) NOT NULL,
+    Telefono VARCHAR(20) NOT NULL,
+    Celular VARCHAR(20) NOT NULL,
+    Direccion VARCHAR(255) NOT NULL,
+    Correo VARCHAR(100) NOT NULL
+);
+
+-- Tabla de Registro de Madres Comunitarias
+CREATE TABLE MadreCom (
+    Cedula INT PRIMARY KEY NOT NULL,
+    Nombre VARCHAR(100) NOT NULL,
+    Telefono VARCHAR(20) NOT NULL,
+    Direccion VARCHAR(255) NOT NULL,
+	FechaNacimiento DATE NOT NULL
+);
+
+-- Tabla de Registro de Jardín
+CREATE TABLE Jardin (
+    IdentificadorJardin INT PRIMARY KEY AUTO_INCREMENT,
+    NombreJardin VARCHAR(100) NOT NULL,
+    Direccion VARCHAR(255) NOT NULL,
+    Estado ENUM('Aprobado', 'En trámite', 'Negado') NOT NULL
+);
+
+-- Tabla de Datos de los Niños
+CREATE TABLE Ninio (
+    RegistroNIUP INT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+    FechaNacimiento DATE NOT NULL,
+    TipoSangre VARCHAR(5) NOT NULL,
+    CiudadNacimiento VARCHAR(100) NOT NULL,
+    Direccion VARCHAR(255) NOT NULL,
+    EPS VARCHAR(50) NOT NULL,
+    IdentificacionAcudiente INT NOT NULL,
+    IdentificacionMadreCom INT NOT NULL,
+    IdentificadorJardin INT NOT NULL,
+    FOREIGN KEY (IdentificacionAcudiente) REFERENCES Acudiente(Cedula),
+    FOREIGN KEY (IdentificacionMadreCom) REFERENCES MadreCom(Cedula),
+    FOREIGN KEY (IdentificadorJardin) REFERENCES Jardin(IdentificadorJardin)
+);
+
+-- Tabla de Registro de Asistencia
+CREATE TABLE RegistroAsistencia (
+	RegistroAsistencia INT PRIMARY KEY AUTO_INCREMENT,
+    Fecha DATE NOT NULL,
+    Estado VARCHAR(20) NOT NULL,
+    IdentificacionNino INT NOT NULL,
+    FOREIGN KEY (IdentificacionNino) REFERENCES Ninio(RegistroNIUP)
+);
+
+-- Tabla de Registro de Avance Académico
+CREATE TABLE RegistroAvanceAcademico (
+    RegistroAvance INT PRIMARY KEY AUTO_INCREMENT,
+    AnioEscolar INT NOT NULL,
+    Nivel VARCHAR(20) NOT NULL,
+    Notas VARCHAR(5) NOT NULL,
+    Descripcion VARCHAR(255) NOT NULL,
+    FechaEntregaNota DATE NOT NULL,
+    IdentificacionNino INT NOT NULL,
+    FOREIGN KEY (IdentificacionNino) REFERENCES Ninio(RegistroNIUP)
+);
